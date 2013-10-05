@@ -1,9 +1,7 @@
 //
 //  main.cpp
-//  test
 //
 //  Created by Kyle Banks on 2013-10-05.
-//  Copyright (c) 2013 Kyle Banks. All rights reserved.
 //
 
 #include <iostream>
