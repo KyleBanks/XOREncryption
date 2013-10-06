@@ -5,7 +5,7 @@ def encryptDecrypt(String input) {
     for(int i = 0; i < input.length(); i++) {
 		int a = input.charAt(i) as int;
 		int b = (key[i % key.size()] as char) as int
-        output.add((a ^ b) as char)
+		output.add((a ^ b) as char)
     }
 
     output.join("")
