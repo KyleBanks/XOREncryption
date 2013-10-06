@@ -5,6 +5,7 @@ Simple implementation of XOR Encryption/Decrypting in various languages, includi
 
 - [C](C/main.c)
 - [C++](C++/main.cpp)
+- [Groovy](Groovy/XOREncryption.groovy)
 - [Java](Java (Android compatible\)/XOREncryption.java) 
 - [JavaScript](JavaScript/XOREncryption.js)
 - [Objective-C](Objective-C/main.m)
