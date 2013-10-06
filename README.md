@@ -1,7 +1,7 @@
 XOR Encryption
 ==================
 
-Simple implementation of XOR Encryption/Decrypting in C++.
+Simple implementation of XOR Encryption/Decrypting in various languages, including C++, Java (Android compatible).
 
 This implementation goes beyond the basic single-key model to use multiple keys in a particular sequence, making it that much more difficult to brute-force.
 
