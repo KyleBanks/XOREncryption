@@ -14,7 +14,7 @@
 @implementation XOREncryption
 
 +(NSString *) encryptDecrypt:(NSString *)input {
-    char key[] = {'K', 'C', 'Q'};
+    char key[] = {'K', 'C', 'Q'}; //Can be any chars, and any size array
     NSMutableString *output = [[NSMutableString alloc] init];
     
     for(int i = 0; i < input.length; i++) {
