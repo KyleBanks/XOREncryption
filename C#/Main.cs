@@ -3,7 +3,7 @@ using System;
 class XOREncryption
 {
 	private static string encryptDecrypt(string input) {
-		char[] key = {'K', 'C', 'Q'};
+		char[] key = {'K', 'C', 'Q'}; //Any chars will work, in an array of any size
 		char[] output = new char[input.Length];
 				
 		for(int i = 0; i < input.Length; i++) {
