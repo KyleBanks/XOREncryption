@@ -4,7 +4,7 @@ XOR Encryption
 Simple implementation of XOR Encryption/Decrypting in various languages, including:
 
 - [C](C/main.c)
-- [C#](C#/Main.cs)
+- [C#](C%23/Main.cs)
 - [C++](C++/main.cpp)
 - [Dart](Dart/xorencryption.dart)
 - [Groovy](Groovy/XOREncryption.groovy)
