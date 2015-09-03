@@ -14,13 +14,13 @@
 @implementation XOREncryption
 
 +(NSString *) encryptDecrypt:(NSString *)input {
-    char key[] = {'K', 'C', 'Q'}; //Can be any chars, and any size array
+    unichar key[] = {'K', 'C', 'Q'}; //Can be any chars, and any size array
     NSMutableString *output = [[NSMutableString alloc] init];
     
     for(int i = 0; i < input.length; i++) {
-        char c = [input characterAtIndex:i];
-        c ^= key[i % sizeof(key)/sizeof(char)];
-        [output appendString:[NSString stringWithFormat:@"%c", c]];
+        unichar c = [input characterAtIndex:i];
+        c ^= key[i % sizeof(key)/sizeof(unichar)];
+        [output appendString:[NSString stringWithFormat:@"%C", c]];
     }
     
     return output;
