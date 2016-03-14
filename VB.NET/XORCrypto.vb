@@ -10,6 +10,11 @@
         Console.ReadLine()
     End Sub
 
+    ''' <summary>
+    ''' Encrypts and Decrypts string via XOR Operation
+    ''' </summary>
+    ''' <param name="input">String to be encrypted/decrypted</param>
+    ''' <returns>Encrypted/Decrypted output string</returns>
     Private Function encryptDecrypt(input As String) As String
         Dim key As Char() = {"K"c, "C"c, "Q"c}
         'Any chars will work, in an array of any size
