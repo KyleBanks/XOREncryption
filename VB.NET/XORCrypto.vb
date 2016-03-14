@@ -21,8 +21,8 @@
         Dim output As Char() = New Char(input.Length - 1) {}
         For i As Integer = 0 To input.Length - 1
             output(i) = ChrW(AscW(input(i)) Xor AscW(key(i Mod key.Length)))
-            'CharW(CharCode As Integer) As Char : Returns the character associated with the specified character code
-            'AscW([String] As Char) As Integer : Returns an integer value representing the character code corresponding to a character
+            'ChrW(CharCode As Integer) As Char (Unicode) : Returns the character associated with the specified character code
+            'AscW([String] As Char) As Integer (Unicode) : Returns an integer value representing the character code corresponding to a character
         Next
         Return New String(output)
     End Function
