@@ -9,10 +9,11 @@ Simple implementation of XOR Encryption/Decrypting in various languages, includi
 - [Dart](Dart/xorencryption.dart)
 - [F#](F%23/Program.fs) by [pawelizycki](https://github.com/pawelizycki)
 - [Groovy](Groovy/XOREncryption.groovy)
-- [Java \(Android Compatible\)](Java \(Android compatible\)/XOREncryption.java) 
+- [Java \(Android Compatible\)](Java \(Android compatible\)/XOREncryption.java)
 - [JavaScript \(Node.js Compatible\)](JavaScript/XOREncryption.js)
 - [Objective-C](Objective-C/main.m)
 - [Python](Python/XOREncryption.py)
+- [Visual Basic.NET](VB.NET/XORCrypto.vb)
 
 This implementation goes beyond the basic single-key model to use multiple keys in a particular sequence, making it that much more difficult to brute-force.
 
