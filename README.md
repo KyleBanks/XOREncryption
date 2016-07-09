@@ -8,6 +8,7 @@ Simple implementation of XOR Encryption/Decrypting in various languages, includi
 - [C++](C++/main.cpp)
 - [Dart](Dart/xorencryption.dart)
 - [F#](F%23/Program.fs) by [pawelizycki](https://github.com/pawelizycki)
+- [Go](Go/xo.go)
 - [Groovy](Groovy/XOREncryption.groovy)
 - [Java \(Android Compatible\)](Java \(Android compatible\)/XOREncryption.java)
 - [JavaScript \(Node.js Compatible\)](JavaScript/XOREncryption.js)
