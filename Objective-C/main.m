@@ -19,7 +19,7 @@
     
     for(int i = 0; i < input.length; i++) {
         unichar c = [input characterAtIndex:i];
-        c ^= key[i % sizeof(key)/sizeof(unichar)];
+        c ^= key[i % (sizeof(key)/sizeof(unichar))];
         [output appendString:[NSString stringWithFormat:@"%C", c]];
     }
     
