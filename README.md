@@ -12,6 +12,7 @@ Simple implementation of XOR Encryption/Decrypting in various languages, includi
 - [Groovy](Groovy/XOREncryption.groovy)
 - [Java \(Android Compatible\)](Java \(Android compatible\)/XOREncryption.java)
 - [JavaScript \(Node.js Compatible\)](JavaScript/XOREncryption.js)
+- [Kotlin](Kotlin/XOREncryption.kt)
 - [Objective-C](Objective-C/main.m)
 - [Python](Python/XOREncryption.py)
 - [Ruby](Ruby/xor.rb)
