@@ -10,7 +10,7 @@ Simple implementation of XOR Encryption/Decrypting in various languages, includi
 - [F#](F%23/Program.fs) by [pawelizycki](https://github.com/pawelizycki)
 - [Go](Go/xor.go)
 - [Groovy](Groovy/XOREncryption.groovy)
-- [Java \(Android Compatible\)](Java \(Android compatible\)/XOREncryption.java)
+- [Java \(Android Compatible\)](Java%20\(Android%20compatible\)/XOREncryption.java)
 - [JavaScript \(Node.js Compatible\)](JavaScript/XOREncryption.js)
 - [Kotlin](Kotlin/XOREncryption.kt)
 - [Objective-C](Objective-C/main.m)
